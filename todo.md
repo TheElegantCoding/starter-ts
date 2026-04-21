@@ -11,7 +11,12 @@
 - [ ] Change the description
 - [ ] Change the badges
 - [ ] Change the cover
-- [ ] Add social media image if necessary
 - [ ] Change the features
 - [ ] Change the installation instructions
 - [ ] Change the usage instructions
+
+## Github
+
+- [ ] Change the repository description
+- [ ] Change the repository topics
+- [ ] Add social media image if necessary
