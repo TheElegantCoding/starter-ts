@@ -33,6 +33,7 @@
   },
   "scripts": {
     "postinstall": "bunx gitlys init",
+    "dev": "bunx tsup --watch",
     "build": "tsup",
     "typecheck": "tsc --noEmit",
     "lint": "eslint --fix",
