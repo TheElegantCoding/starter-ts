@@ -37,11 +37,11 @@
     "build": "tsup",
     "typecheck": "tsc --noEmit",
     "lint": "eslint --fix",
-    "release": "bunx gitlys release"
+    "release": "bun run build && bunx gitlys release"
   },
   "devDependencies": {
-    "eslint-config-universal-code": "^1.0.14",
-    "gitlys": "^1.1.5",
+    "eslint-config-universal-code": "^1.0.19",
+    "gitlys": "^2.1.4",
     "tsup": "^8.5.1",
     "typescript": "^5.9.3"
   }
