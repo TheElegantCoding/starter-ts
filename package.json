@@ -12,7 +12,9 @@
     "typescript",
     "github",
     "git",
-    "clean-code"
+    "clean-code",
+    "starter-ts",
+    "zero-config"
   ],
   "bugs": {
     "url": "https://github.com/TheElegantCoding/starter-ts/issues"
@@ -32,17 +34,19 @@
     "bun": ">=1.1.0"
   },
   "scripts": {
+    "preinstall": "npx only-allow bun",
     "postinstall": "bunx gitlys init",
-    "dev": "bunx tsup --watch",
-    "build": "tsup",
-    "typecheck": "tsc --noEmit",
-    "lint": "eslint --fix",
-    "release": "bun run build && bunx gitlys release"
+    "dev": "tsup --watch",
+    "build": "bun run type:check && bun run lint && tsup",
+    "type:check": "tsc --noEmit",
+    "lint": "eslint . --fix --cache",
+    "security:audit": "bun audit",
+    "release": "bun run build && bun run security:audit && bunx gitlys release"
   },
   "devDependencies": {
-    "eslint-config-universal-code": "^1.0.19",
-    "gitlys": "^2.1.4",
-    "tsup": "^8.5.1",
-    "typescript": "^5.9.3"
+    "eslint-config-universal-code": "^1.1.4",
+    "gitlys": "^2.2.4",
+    "tsup": "^9.0.0",
+    "typescript": "^7.0.2"
   }
 }
