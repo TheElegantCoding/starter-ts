@@ -28,7 +28,6 @@
     "useUnknownInCatchVariables": true,
     "declaration": true,
     "newLine": "lf",
-    "noEmit": true,
     "outDir": "./dist",
     "removeComments": true,
     "sourceMap": true,
@@ -37,10 +36,6 @@
     "isolatedModules": true,
     "skipLibCheck": true
   },
-  "include": [
-    "src/**/*",
-    "eslint.config.js",
-    "tsup.config.ts"
-  ],
+  "include": ["src/**/*"],
   "exclude": ["node_modules", "dist"]
 }
