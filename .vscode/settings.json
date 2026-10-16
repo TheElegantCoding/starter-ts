@@ -8,10 +8,12 @@
     "source.organizeImports": "never"
   },
   "js/ts.format.enabled": false,
-  "js/ts.format.placeOpenBraceOnNewLineForControlBlocks": true,
-  "js/ts.format.placeOpenBraceOnNewLineForFunctions": true,
   "js/ts.preferences.importModuleSpecifier": "non-relative",
   "eslint.run": "onSave",
+  "eslint.options": {
+    "cache": true,
+    "cacheLocation": ".eslintcache"
+  },
   "eslint.validate": [
     "javascript",
     "javascriptreact",
@@ -31,25 +33,4 @@
   "[javascript]": {
     "editor.defaultFormatter": "dbaeumer.vscode-eslint"
   },
-  "[javascriptreact]": {
-    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
-  },
-  "[typescriptreact]": {
-    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
-  },
-  "[astro]": {
-    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
-  },
-  "[html]": {
-    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
-  },
-  "[json]": {
-    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
-  },
-  "[jsonc]": {
-    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
-  },
-  "[yaml]": {
-    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
-  }
 }
