@@ -6,10 +6,16 @@ Thumbs.db
 
 # Dependencies
 node_modules/
+.eslintcache
 
 # Build
 dist/
 *.tsbuildinfo
+
+# Env
+.env
+.env.*
+!.env.example
 
 # Logs
 npm-debug.log*
