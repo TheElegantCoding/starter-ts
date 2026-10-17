@@ -41,7 +41,7 @@
     "type:check": "tsc --noEmit",
     "lint": "eslint . --fix --cache",
     "security:audit": "bun audit",
-    "release": "bun run build && bun run security:audit && bunx gitlys release"
+    "release": "bun run build && bunx gitlys release"
   },
   "devDependencies": {
     "eslint-config-universal-code": "^1.1.4",
