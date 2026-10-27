@@ -8,29 +8,5 @@
     "source.organizeImports": "never"
   },
   "js/ts.format.enabled": false,
-  "js/ts.preferences.importModuleSpecifier": "non-relative",
-  "eslint.run": "onSave",
-  "eslint.options": {
-    "cache": true,
-    "cacheLocation": ".eslintcache"
-  },
-  "eslint.validate": [
-    "javascript",
-    "javascriptreact",
-    "astro",
-    "typescript",
-    "typescriptreact",
-    "html",
-    "json",
-    "jsonc",
-    "json5",
-    "yaml",
-    "github-actions-workflow"
-  ],
-  "[typescript]": {
-    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
-  },
-  "[javascript]": {
-    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
-  },
+  "js/ts.preferences.importModuleSpecifier": "non-relative"
 }
