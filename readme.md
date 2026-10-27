@@ -20,7 +20,7 @@
 <br />
 
 <div align="center">
-  <img src="./.github/asset/illustration/eslint_badge.svg" height="34px" />&nbsp;&nbsp;&nbsp;
+  <img src="./.github/asset/illustration/oxlint_badge.svg" height="34px" />&nbsp;&nbsp;&nbsp;
   <img src="./.github/asset/illustration/bun_badge.svg" height="34px" />&nbsp;&nbsp;&nbsp;
   <img src="./.github/asset/illustration/github_badge.svg" height="34px" />&nbsp;&nbsp;&nbsp;
   <img src="./.github/asset/illustration/typescript_badge.svg" height="34px" />&nbsp;&nbsp;&nbsp;
@@ -113,10 +113,10 @@ yarn i -D [REPLACE_WITH_PACKAGE_NAME]
 
 <br />
 
-<img 
-  src="./.github/asset/illustration/divider.svg" 
-  alt="divider" 
-  width="100%" 
+<img
+  src="./.github/asset/illustration/divider.svg"
+  alt="divider"
+  width="100%"
 />
 
 <h2 id="usage">
@@ -128,10 +128,10 @@ yarn i -D [REPLACE_WITH_PACKAGE_NAME]
 
 <br />
 
-<img 
-  src="./.github/asset/illustration/divider.svg" 
-  alt="divider" 
-  width="100%" 
+<img
+  src="./.github/asset/illustration/divider.svg"
+  alt="divider"
+  width="100%"
 />
 
 <h2 id="configuration">
@@ -143,20 +143,20 @@ yarn i -D [REPLACE_WITH_PACKAGE_NAME]
 
 <br />
 
-<img 
-  src="./.github/asset/illustration/divider.svg" 
-  alt="divider" 
-  width="100%" 
+<img
+  src="./.github/asset/illustration/divider.svg"
+  alt="divider"
+  width="100%"
 />
 
 <pre align="center">
   <a href="#top">BACK TO TOP</a>
 </pre>
 
-<img 
-  src="./.github/asset/illustration/divider.svg" 
-  alt="divider" 
-  width="100%" 
+<img
+  src="./.github/asset/illustration/divider.svg"
+  alt="divider"
+  width="100%"
 />
 
 <pre align="center">
